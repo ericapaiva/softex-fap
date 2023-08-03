@@ -1,3 +1,4 @@
 const nomes = ["João","Maria", "Paulo", "Pedro"];
+let num = 1;
 
-c
+function testandoArrays (x)
