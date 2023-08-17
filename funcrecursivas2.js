@@ -5,5 +5,5 @@ function fibonacci(n){
        return fibonacci(n-1) + fibonacci(n-2);
 }
 }
-let num = 8;
+let num = 3;
 console.log(`o oitavo elemento da sequencia de fibonacci ${num} é ${fibonacci(num)}`);
