@@ -7,11 +7,11 @@ const sequelize = new Sequelize({
 });
 
 // Para testar conexao, usar o metodo .authenticate(). Como prerequisito para funcionamento do "await", o codigo precisa se encapsulado com uma funcao IIFE: (async () => {codigo})();
-(async () => {
+( async () => {
   try {
     await sequelize.authenticate();
-    console.log("Conexão realizada com sucesso!!!");
+    console.log("conexão realizada com sucesso!!!");
   } catch (error) {
-    console.error("Erro na conexão: ", error);
+    console.error(" Erro na conexão: ", error);
   }
-})();
+} ) ();
